@@ -23,12 +23,17 @@ Plotly: Veri görselleştirme
 ## Proje Adımları:
 
 ** Veri Yükleme: Veri seti Pandas ile yüklenir ve ilk 5 satır incelenerek veri hakkında genel bir fikir edinilir.
+
 ** Eksik Veri Analizi: Veri setindeki eksik değerler tespit edilir ve gerekli düzenlemeler yapılır. Bu projede eksik değerler düşürülmüştür.
+
 ## Veri Önişleme:
 ** Özellik Seçimi: Analiz için gerekli olan özellikler seçilir (BALANCE, PURCHASES, CREDIT_LIMIT).
+
 ** Ölçeklendirme: Veriler, K-Means algoritmasının daha iyi çalışması için MinMaxScaler ile ölçeklendirilir.
+
 ## Kümeleme:
 ** Optimal Küme Sayısı: Elbow metodu veya Silhouette skorunu kullanarak optimal küme sayısı belirlenir.
+
 ** K-Means Uygulaması: Belirlenen küme sayısı ile K-Means algoritması çalıştırılır ve müşteriler kümelere ayrılır.
 
 ## Sonuçların Değerlendirilmesi:
