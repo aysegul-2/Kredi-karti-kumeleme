@@ -30,9 +30,12 @@ Plotly: Veri görselleştirme
 ## Kümeleme:
 ** Optimal Küme Sayısı: Elbow metodu veya Silhouette skorunu kullanarak optimal küme sayısı belirlenir.
 ** K-Means Uygulaması: Belirlenen küme sayısı ile K-Means algoritması çalıştırılır ve müşteriler kümelere ayrılır.
+
 ## Sonuçların Değerlendirilmesi:
 ** Küme Etiketleme: Oluşturulan kümelere anlamlı isimler verilir.
+
 ** Görselleştirme: 3 boyutlu scatter plot ile kümeler görselleştirilir.
+
 ** Analiz: Her bir kümenin özellikleri incelenerek müşteri segmentleri hakkında çıkarımlar yapılır.
 
 ## Lisans
